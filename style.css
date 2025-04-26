@@ -1,5 +1,5 @@
 body{
-    width:1200px;
+    width:1400px;
     margin-left:auto;
     margin-right:auto;
 }
@@ -11,9 +11,11 @@ body{
     font-weight:600;
     font-style: normal;
   }
+
+  /* navbar section start */
 .navbar{
     display: flex; 
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
 
 }
@@ -49,6 +51,57 @@ button{
      transition-duration: 0.4s;
 }
 button:hover {
-    background-color:rgb(118, 4, 170); /* Green */
-    color: white;
+    background-color:rgb(118, 4, 170); / 
+    color:#0000;
   }
+/* navbar end */
+
+/* Banner section start */
+
+.primary-header{
+    font-size: 51px;
+    color: #1e293b;
+}
+.secondary-header{
+    color: #625ce8;
+    background: #daddfc;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-radius: 50px;
+    font-size: xx-small;
+}
+.banner-area{
+    padding-top:10px;
+    height:1200px;
+    
+
+  
+    background-image: url('asset/bg.jpg');
+}
+.banner{
+    place-items: center;
+}
+
+.banner-content{
+    width: 63%;
+    text-align: center;
+    justify-items: center;
+    padding-bottom: 100px;
+}
+.description{
+    color: #8a94a1;
+}
+.icon{
+    display:flex;
+    background-color:black;
+    color:white;
+    align-items: center;
+}
+.banner-btn{
+    margin-top:50px;
+}
+.flex{display:flex;}
+/* Banner section end */
